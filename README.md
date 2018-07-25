@@ -13,15 +13,18 @@ Master
 1. git clone https://github.com/rainANDshine/spots
 
 2. open *index.html*
-  
-## Credits
-Built by [Lane Miller](https://github.com/LaneMiller), [Jesse Horwitz](https://github.com/SuperJesseH), and [Shun Yao](https://github.com/rainANDshine)
+
+## Youtube Video Demo
+https://www.youtube.com/watch?v=JuedMMu2Ky8
 
 ## Screenshots
 <img src="1.png" alt="1">
 <img src="2.png" alt="2">
 <img src="3.png" alt="3">
 <img src="4.png" alt="4">
+
+## Credits
+Built by [Lane Miller](https://github.com/LaneMiller), [Jesse Horwitz](https://github.com/SuperJesseH), and [Shun Yao](https://github.com/rainANDshine)
 
 ## License
 MIT ©
