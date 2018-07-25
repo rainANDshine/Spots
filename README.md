@@ -10,9 +10,11 @@ Spots is an app that helps people meet up at a central location. Simply click to
 Master
 
 ## Installation
-<code>git clone https://github.com/rainANDshine/spots</code>
+1. git clone https://github.com/rainANDshine/spots
 
-<code>open</code>index.html
+2. Create a **keys.js** file in the **src** folder, and write: <code>const mapboxAPI = "*your own MapBox API key*"<code>
+
+3. open *index.html*
 
 ## Credits
 Built by [Lane Miller](https://github.com/LaneMiller), [Jesse Horwitz](https://github.com/SuperJesseH), and [Shun Yao](https://github.com/rainANDshine)
