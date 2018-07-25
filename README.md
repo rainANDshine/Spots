@@ -12,7 +12,7 @@ Master
 ## Installation
 <code>git clone https://github.com/rainANDshine/spots</code>
 
-<code>open index.html</code>
+<code>open</code>index.html
 
 ## Credits
 Built by [Lane Miller](https://github.com/LaneMiller), [Jesse Horwitz](https://github.com/SuperJesseH), and [Shun Yao](https://github.com/rainANDshine)
