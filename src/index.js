@@ -238,7 +238,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
           e.preventDefault()
           const newDestQuery = e.target.value
           const newDestCat = e.target.previousElementSibling.value
-          fetch(`http://localhost:3000/api/v1/search/${newDestQuery}`).then(json=>json.json()).then(json=>buildGoogleDestList(json, newDestCat) )
+          fetch(`https://spots-server.herokuapp.com/api/v1/search/${newDestQuery}`).then(json=>json.json()).then(json=>buildGoogleDestList(json, newDestCat) )
         }
 
       })
@@ -358,8 +358,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 //fetch Adapter
 const fetchOperations = {
-  locationUrl: "http://localhost:3000/api/v1/locations/",
-  categoryUrl: "http://localhost:3000/api/v1/categories/",
+  locationUrl: "https://spots-server.herokuapp.com/api/v1/locations/",
+  categoryUrl: "https://spots-server.herokuapp.com/api/v1/categories/",
   parseJson: function(response) {
     return response.json();
   },
