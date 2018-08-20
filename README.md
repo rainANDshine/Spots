@@ -14,6 +14,9 @@ Master
 
 2. open *index.html*
 
+## Live App
+https://spots-1.herokuapp.com/index.html
+
 ## Youtube Video Demo
 https://www.youtube.com/watch?v=JuedMMu2Ky8
 
