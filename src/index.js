@@ -146,6 +146,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
       findAverage(origins)
     })
 
+
   }
 
   // calculates average point of all origins and places a pin
@@ -263,7 +264,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
         newListResultItem.setAttribute('id', `googlePlace-${dest.place_id}`)
         newListResultItem.setAttribute('data-name', `${dest.name},${dest.geometry.location.lat},${dest.geometry.location.lng}`)
         const newListResultItemName = document.createElement('p')
-        newListResultItemName.innerHTML = dest.name +' - '+ dest.rating
+        if (dest.rating){
+          newListResultItemName.innerHTML = dest.name +' - '+ dest.rating
+        }else{
+          newListResultItemName.innerHTML = dest.name
+        }
         const newListResultItemAddress = document.createElement('p')
         newListResultItemAddress.innerHTML = dest.formatted_address
         newListResultItem.append(newListResultItemName, newListResultItemAddress)
@@ -304,7 +309,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
 // t.string "city"
 // t.string "state"
 // t.string "zip"
-
 
 
     function shortestDistance(locations, avgPoint) {
